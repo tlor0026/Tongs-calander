@@ -29,7 +29,7 @@ function background () {
       $(this).addClass("present");
     }
   });
-}
+};
 // saving to local storage
 var eightAm = $("#8am");
 var nineAm = $("#9am");
@@ -63,16 +63,16 @@ function beggin() {
   fourPm.val(tim4);
   var tim5 = JSON.parse(localStorage.getItem("5:00 pm"))
   fivePm.val(tim5);
-} 
+};
 var toDo;
 var doThis;
 $(".saveBtn").on("click", function(){
   toDo = $(this).siblings(".push").val().trim();
   doThis = $(this).siblings("#ti9").text().trim();
   localStorage.setItem(doThis, toDo);
-})
+});
 //clear button
 $("#clr").on("click", function(){
   localStorage.clear();
   beggin()
-}) 
+}); 

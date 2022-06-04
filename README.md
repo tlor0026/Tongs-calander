@@ -1,7 +1,7 @@
 Tongs calander  
 
-Published page: https://tlor0026.github.io/Tongs-Quiz/
-Github: https://github.com/tlor0026/Tongs-Quiz.git
+Published page: https://tlor0026.github.io/Tongs-calander/
+Github: https://github.com/tlor0026/Tongs-calander.git
 
 USAGE:
 Please feel free to use this calander template to create a quick 9-5 daily schedule to orginize your day! Use the inpage clock to track the time of the day. You'll see as well that as time passes, the middle portion will switch colors, this will either indicate that you are past that time, in that current time. Or not at that time yet!
